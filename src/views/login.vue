@@ -1,9 +1,9 @@
 <template>
   <div class="login">
     <el-form ref="loginForm" :model="loginForm" :rules="loginRules" class="login-form">
-      <h3 class="title">登陆吉想敏捷开发框架</h3>
+      <h3 class="title">登陆催收系统</h3>
       <h4 class="title" style="color:red;">
-      	<a href="https://item.taobao.com/item.htm?id=618814981963" target="_blank">版权所有 侵权必究</a>
+<!--      	<a href="https://item.taobao.com/item.htm?id=618814981963" target="_blank">版权所有 侵权必究</a>-->
       </h4>
       <el-form-item prop="username">
         <el-input v-model="loginForm.username" type="text" auto-complete="off" placeholder="账号">
@@ -51,7 +51,7 @@
     </el-form>
     <!--  底部  -->
     <div class="el-login-footer">
-      <span>Copyright © 2018-2021 <a href="http://jeethink.vip">jeethink</a> All Rights Reserved.</span>
+      <span>Copyright © 2021-2022 <a href="http://ics.vip">ics</a> All Rights Reserved.</span>
     </div>
   </div>
 </template>

@@ -1,5 +1,5 @@
 import request from '@/utils/request'
-import { praseStrEmpty } from "@/utils/jeethink";
+import { praseStrEmpty } from "@/utils/ics";
 
 // 查询用户列表
 export function listUser(query) {

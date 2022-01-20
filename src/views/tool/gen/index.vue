@@ -269,7 +269,7 @@ export default {
           this.msgSuccess("成功生成到自定义路径：" + row.genPath);
         });
       } else {
-        downLoadZip("/code/gen/batchGenCode?tables=" + tableNames, "jeethink");
+        downLoadZip("/code/gen/batchGenCode?tables=" + tableNames, "ics");
       }
     },
     /** 同步数据库操作 */

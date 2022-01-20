@@ -8,12 +8,12 @@
       <template v-if="device!=='mobile'">
         <search id="header-search" class="right-menu-item" />
 
-				<el-tooltip content="吉想官网" effect="dark" placement="bottom">
-					<jee-think-site id="jeethink-site" class="right-menu-item hover-effect" />
+				<el-tooltip content="netsol官网" effect="dark" placement="bottom">
+					<jee-think-site id="ics-site" class="right-menu-item hover-effect" />
 				</el-tooltip>
 
 				<el-tooltip content="购买源码" effect="dark" placement="bottom">
-					<jee-think-doc id="jeethink-doc" class="right-menu-item hover-effect" />
+					<jee-think-doc id="ics-doc" class="right-menu-item hover-effect" />
 				</el-tooltip>
 
         <screenfull id="screenfull" class="right-menu-item hover-effect" />
